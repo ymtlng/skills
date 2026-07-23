@@ -2,17 +2,17 @@
 
 > Make the smallest correct change.
 
-KeepItLean is an AI coding skill that encourages minimal, architecture-aligned changes to existing codebases.
+KeepItLean is an AI coding skill that guides coding agents to make minimal, architecture-aligned changes instead of unnecessary rewrites.
 
-Instead of rewriting code or introducing unnecessary abstractions, KeepItLean helps AI assistants think like experienced maintainers of mature production systems.
+It helps AI think like a senior engineer maintaining a mature production codebase.
 
 ## Philosophy
 
 - Preserve the existing architecture.
-- Prefer extending existing code.
 - Minimize the diff.
-- Avoid unnecessary refactoring.
-- Respect project conventions.
+- Reuse existing code.
+- Avoid unnecessary abstractions.
+- Refactor only when required.
 - Keep implementation risk low.
 
 ## Ideal for
@@ -20,20 +20,24 @@ Instead of rewriting code or introducing unnecessary abstractions, KeepItLean he
 - Bug fixes
 - New features
 - Conservative refactoring
-- Large production codebases
-- Legacy systems
 - Enterprise applications
+- Legacy systems
 
-## Not intended for
+## Installation
 
-- Complete rewrites
-- Greenfield architecture
-- Framework migrations
-- Large-scale redesigns
+```bash
+npx skills add yanelang-dev/keep-it-lean
+```
 
-## Examples
+## Example
 
-See the `examples` folder.
+Instead of:
+
+❌ Rewrite three services and introduce a new abstraction.
+
+KeepItLean prefers:
+
+✅ Extend the existing service with a focused change.
 
 ## License
 

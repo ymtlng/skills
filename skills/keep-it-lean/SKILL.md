@@ -1,5 +1,5 @@
 ---
-name: KeepItLean
+name: keep-it-lean
 description: Make the smallest correct change.
 ---
 
