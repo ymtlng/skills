@@ -1,6 +1,6 @@
 ---
 name: keep-it-lean
-description: Make the smallest correct change.
+description: AI coding skill for minimal, architecture-aligned code changes. Use for bug fixes, features, and conservative refactoring.
 ---
 
 # KeepItLean
