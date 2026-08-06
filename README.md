@@ -1,43 +1,33 @@
-# KeepItLean
+# Agent skills for real engineering
 
-> Make the smallest correct change.
+These are the agent skills I use in day-to-day software development—focused on software dev process.
 
-KeepItLean is an AI coding skill that guides coding agents to make minimal, architecture-aligned changes instead of unnecessary rewrites.
+Building and maintaining production software is difficult. Large AI development frameworks often try to manage the entire workflow for you. That structure can be useful, but it can also hide important decisions, reduce your control, and make failures harder to understand.
 
-It helps AI think like a senior engineer maintaining a mature production codebase.
+I prefer focused tools with clear responsibilities. Each skill in this repository solves one part of the engineering process, stays out of the way, and composes naturally with the others.
 
-## Philosophy
+The skills are intentionally:
 
-- Preserve the existing architecture.
-- Minimize the diff.
-- Reuse existing code.
-- Avoid unnecessary abstractions.
-- Refactor only when required.
-- Keep implementation risk low.
+- small enough to understand and change
+- independent enough to use separately
+- composable enough to form a practical workflow
+- compatible with different models and coding agents
+- grounded in established software-engineering principles
 
-## Ideal for
+Use them as written, adapt them to your team, or take them apart and build something better.
 
-- Bug fixes
-- New features
-- Conservative refactoring
-- Enterprise applications
-- Legacy systems
+## Skills
 
-## Installation
+- **ScopeIt** — understand and bound a change before implementation.
+- **KeepItLean** — implement the change with the smallest safe diff.
 
-```bash
-npx skills add yanelang-dev/keep-it-lean
-```
+See the [skills catalog](skills/README.md) for what each skill does, why it exists, and how to install it.
 
-## Example
+[![skills.sh](https://skills.sh/b/yanelang-dev/skills)](https://skills.sh/yanelang-dev/skills)
 
-Instead of:
+## Author
 
-❌ Rewrite three services and introduce a new abstraction.
-
-KeepItLean prefers:
-
-✅ Extend the existing service with a focused change.
+[Yanelang Motloung](https://github.com/yanelang-dev), a C# developer in Pretoria, South Africa.
 
 ## License
 
