@@ -21,7 +21,7 @@ npx skills add ymtlng/skills --skill scope-it
 
 ### What it is
 
-[KeepItLean](skills/SKILL.md) guides coding agents to make minimal, production-safe changes that preserve existing architecture and patterns.
+[KeepItLean](keep-it-lean/SKILL.md) guides coding agents to make minimal, production-safe changes that preserve existing architecture and patterns.
 
 ### Why we need it
 
