@@ -23,11 +23,11 @@ Use them as written, adapt them to your team, or take them apart and build somet
 
 See the [skills catalog](skills/README.md) for what each skill does, why it exists, and how to install it.
 
-[![skills.sh](https://skills.sh/b/yanelang-dev/skills)](https://skills.sh/yanelang-dev/skills)
+[![skills.sh](https://skills.sh/b/ymtlng/skills)](https://skills.sh/ymtlng/skills)
 
 ## Author
 
-[Yanelang Motloung](https://github.com/yanelang-dev), a C# developer in Pretoria, South Africa.
+[Yanelang Motloung](https://github.com/ymtlng), a C# developer in Pretoria, South Africa.
 
 ## License
 
