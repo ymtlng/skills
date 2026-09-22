@@ -14,7 +14,7 @@ Requirements describe intent, while the repository reflects the current implemen
 ### Install
 
 ```bash
-npx skills add yanelang-dev/skills --skill scope-it
+npx skills add ymtlng/skills --skill scope-it
 ```
 
 ## KeepItLean
@@ -30,13 +30,13 @@ AI coding agents can over-engineer focused requests by introducing unnecessary a
 ### Install
 
 ```bash
-npx skills add yanelang-dev/skills --skill keep-it-lean
+npx skills add ymtlng/skills --skill keep-it-lean
 ```
 
 ## Install both
 
 ```bash
-npx skills add yanelang-dev/skills
+npx skills add ymtlng/skills
 ```
 
 Select both skills when prompted.
